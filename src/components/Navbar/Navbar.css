@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background: #214070;
+    margin-bottom:20px;
+    user-select: none;
+}
+.navbar-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: azure;
+    column-gap: 50px;
+
+}
+.navbar-links-item{
+    color: azure;
+    text-decoration: none;
+    align-items: center;
+}

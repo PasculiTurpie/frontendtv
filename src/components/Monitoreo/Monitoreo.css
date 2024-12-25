@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .main-title{
+      margin-bottom: 20px;
+  }
+  .container-videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 840px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
+    gap: 20px;
+  }
+  
+  .container-video{
+    margin: auto;
+  }

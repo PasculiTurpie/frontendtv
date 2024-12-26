@@ -164,11 +164,17 @@ select{
   cursor: not-allowed;
 }
 .error-message{
-  width: 100%;
+  width: fit-content;
   padding:10px;
   display: flex;
+  row-gap: 10px;;
   flex-direction: column;
+  border:1px solid red;
+}
+.error-parrafo{
   color: red;
+  font-weight: bold;
+
 }
 
 

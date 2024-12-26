@@ -58,7 +58,7 @@ const FetchChannel = () => {
 
   const errorComponent = () => (
     <div className="error-message">
-      <p>Ocurrió un error al cargar los datos: {error}</p>
+      <p className="error-parrafo">Ocurrió un error al cargar los datos: {error}</p>
       <button className="btn" onClick={fetchData}>
         Reintentar
       </button>

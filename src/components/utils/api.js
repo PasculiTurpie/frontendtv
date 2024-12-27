@@ -25,6 +25,6 @@ class Api {
   }
 }
 
-const api = new Api(`https://api.tv-operaciones.cl`);
+const api = new Api(`https://172.19.14.135:5000/api/v1`);
 
 export default api;

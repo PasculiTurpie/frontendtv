@@ -52,7 +52,7 @@ const FetchChannel = () => {
 
   const loader = () => (
     <div className="loader">
-      <div className="spinner"></div>
+
     </div>
   );
 

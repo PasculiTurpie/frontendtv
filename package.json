@@ -26,11 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-<<<<<<< HEAD
     "deploy": "npm run build && scp -r ./build/* jsepulveda@192.168.5.248:/var/www/tv-operaciones.cl"
-=======
-    "deploy": "npm run build && scp -r ./build/* jsepulveda@172.19.14.135:/var/www/tv-operaciones/html"
->>>>>>> beb97dc8377c23b73232db296bba6f28c9090f21
   },
   "eslintConfig": {
     "extends": [

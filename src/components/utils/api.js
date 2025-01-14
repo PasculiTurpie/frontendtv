@@ -3,7 +3,7 @@ class Api {
     this.url = url;
   }
   getChannel(limit, page) {
-    return fetch(`${this.url}/channel?limit=${limit}&&page=${page}`).then(
+    return fetch(`${this.url}/channel?limit=${limit}&page=${page}`).then(
       (response) => {
         if (!response.ok) {
           throw new Error(`Error: ${response.status} ${response.statusText}`);

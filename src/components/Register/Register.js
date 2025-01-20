@@ -10,11 +10,9 @@ const Register = () => {
     handleSubmit,
   } = useForm();
   const onSubmit = async (data) => {
-    console.log(data);
     const registroUser = axios
       .post("http://localhost:5000/api/v1/registro", data)
       .then((response) => {
-        console.log(response);
         Swal.fire({
           title: "Registro exitoso",
           text: "Te has registrado correctamente",

@@ -12,7 +12,6 @@ const SearchChannel = () => {
     api
       .getAllChannel()
       .then((data) => {
-        console.log(data);
         setDataChannel(data || []);
       })
       .catch((error) => {
@@ -23,7 +22,6 @@ const SearchChannel = () => {
   }, []);
 
   const queryParams = searchParams.get("keyword") || "";
-  console.log("Query Params:", queryParams);
 
   const filteredData = useMemo(() => {
     return dataChannel.filter((item) => {
@@ -35,8 +33,7 @@ const SearchChannel = () => {
       );
     });
   }, [dataChannel, queryParams]);
-
-  console.log(filteredData);
+  
 
   const loader = () => (
     <div className="loader">

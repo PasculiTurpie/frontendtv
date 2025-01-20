@@ -7,7 +7,6 @@ import Nabvar from "../Navbar/Nabvar";
 
 const Layout = (loggedin) => {
 
-    console.log(loggedin);
   return (
     <>
       <div className="layout">

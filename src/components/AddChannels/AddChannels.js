@@ -3,12 +3,6 @@ import "./AddChannels.css";
 
 const AddChannels = () => {
 
-
-  const addContactHandleClick = () => {
-    console.log("Add Contact Button Clicked");
-  }
-
-
   return (
     <>
       <div className="container-primary">

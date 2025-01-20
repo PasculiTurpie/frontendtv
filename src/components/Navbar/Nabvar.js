@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 const Nabvar = ({ nombre }) => {
-  console.log(nombre.nombre);
+  
   return (
     <>
       <div className="navbar">

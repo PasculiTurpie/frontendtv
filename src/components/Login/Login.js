@@ -16,12 +16,10 @@ const Login = () => {
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
-    console.log(data);
     // Enviar los datos al backend para validar el login
     const loginUser = axios
       .post("http://localhost:5000/api/v1/login", data)
       .then((response) => {
-        console.log(response);
         if (response.status === 200) {
           navigate("/manager");
         }

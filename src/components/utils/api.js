@@ -25,10 +25,6 @@ class Api {
   }
 }
 
-<<<<<<< HEAD
 const api = new Api(`https://172.19.14.135:5000/api/v1`);
-=======
-const api = new Api(`http://192.168.5.250:5000/api/v1`);
->>>>>>> d6597f1c84ef76d104616d1b80e31a37ad3446ec
 
 export default api;

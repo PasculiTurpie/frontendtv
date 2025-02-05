@@ -25,6 +25,6 @@ class Api {
   }
 }
 
-const api = new Api(`https://signal-operacionestv:5000/api/v1`);
+const api = new Api(`http://signal-operacionestv/api/v1`);
 
 export default api;

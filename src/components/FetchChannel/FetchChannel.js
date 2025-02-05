@@ -48,7 +48,7 @@ const FetchChannel = () => {
 
   useEffect(() => {
     fetchData();
-  }, [page, limit]);
+  });
 
   const loader = () => (
     <div className="loader">

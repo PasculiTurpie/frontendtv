@@ -80,7 +80,7 @@ const Card = ({
                       </p>
                       <p className="card-info-parrafo">
                         <span className="card-info-sev">
-                          {criticalityCategory}
+                          Severidad: {criticalityCategory}
                         </span>
                       </p>
                     </div>

@@ -3,7 +3,7 @@ class Api {
     this.url = url;
   }
   getChannel(limit, page) {
-    return fetch(`${this.url}/channel?limit=${limit}&page=${page}`).then(
+    return fetch(`${this.url}channel?limit=${limit}&page=${page}`).then(
       (response) => {
         if (!response.ok) {
           throw new Error(`Error ${response.status} ${response.statusText}`);
@@ -13,19 +13,19 @@ class Api {
     );
   }
   getAllChannel() {
-    return fetch(`${this.url}/channel/all`)
+    return fetch(`${this.url}channel/all`)
       .then((response) => response.json())
       .catch((error) => console.error("Error:", error));
   }
 
   getChannelById(channelId) {
-    return fetch(`${this.url}/channel/${channelId}`)
+    return fetch(`${this.url}channel/${channelId}`)
       .then((response) => response.json())
      .catch((error) => console.error("Error:", error));
   }
 }
 
-const api = new Api(`https://172.19.14.135:5000/api/v1`);
+const api = new Api(`https://172.19.14.135:5000/api/v1/`);
 
 export default api;
 
